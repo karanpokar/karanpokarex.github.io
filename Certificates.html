@@ -1,0 +1,50 @@
+<head>
+    <title>Certificates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/cs.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div class="container">
+       <section class="customer-logos slider">
+          <div class="slide"><img src="images/aws.jpg" ><p><a href="https://www.coursera.org/account/accomplishments/verify/7RCEPTG8SKM6" class="button">Check Certificate</a></p></div>
+          <div class="slide"><img src="images/ibm.jpg"><a href='https://www.coursera.org/account/accomplishments/verify/ZGL3JCNW9MP3' class="button">Check Certificate</a></p></div>
+          <div class="slide"><img src="images/googlec.jpg" ><p><a href='https://www.coursera.org/account/accomplishments/verify/7RCEPTG8SKM6' class="button">Check Certificate</a></p></div>
+          <div class="slide"><img src="images/mu.jpg" ><p><a href='https://coursera.org/account/accomplishments/verify/EXPLVR89TC5Q' class="button">Check Certificate</a></p></div>
+          <div class="slide"><img src="images/dlai.jpg"><p><a href='https://www.coursera.org/account/accomplishments/verify/TRZPP7C2C7AZ' class="button">Check Certificate</a></p></div>
+          <div class="slide"><img src="images/gctf.png" ><p><a href='https://www.coursera.org/account/accomplishments/verify/WNU5GSATNQ5X' class="button">Check Certificate</a></p></div>
+       </section>
+    </div>
+    <script>
+        $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1250,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});</script>
+</div>
+
+</body> 
+</html>
